@@ -1,0 +1,493 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover-bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.pb-35 {
+    padding-bottom: 35px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+.mt-30 {
+    margin-top: 30px;
+}
+
+.py-15 {
+    padding: 15px;
+    padding-bottom: 15px;
+}
+
+.section_padding {
+    padding: 100px 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'lato', sans-serif;
+    color: #151515;
+    font-weight: 700;
+}
+
+p {
+    line-height: 1.6;
+    color: rgb(204, 198, 198);
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+.contact {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/contact.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+
+/***section title css ***/
+
+.section_title {
+    position: relative;
+    margin-bottom: 70px;
+    width: 100%;
+}
+
+.section_title p {
+    background-color: #1957f3;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 12px;
+    letter-spacing: 1px;
+}
+
+.section_title h3 {
+    position: relative;
+    font-size: 36px;
+    text-transform: capitalize;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    padding-bottom: 13px;
+}
+
+.section_title h3:after {
+    content: '';
+    position: absolute;
+    display: block;
+    height: 30px;
+    width: 2px;
+    bottom: -30px;
+    right: 600px;
+    background-color: #1957f3;
+    transform: translate(-50%, 0);
+}
+
+
+/*** buttons css ***/
+
+.btn {
+    background-color: #1957f3;
+    border: 2px solid #1957f3;
+    padding: 15px 20px;
+    box-shadow: inset 0 0 0 0 #fff;
+    letter-spacing: 1px;
+    border-radius: 0;
+    color: #fff;
+    font-size: 14px;
+    transition: 0.5s all;
+}
+
+
+/*** about section css***/
+
+.about .part_text h4 {
+    font-size: 24px;
+}
+
+.about .part_text p {
+    border-bottom: 1px solid #f1f1f1;
+    font-size: 20px;
+}
+
+.about .part_text.info li {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+
+/*** hire me section css ***/
+
+.hire_me {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/handshake.jpg);
+    background-attachment: fixed;
+}
+
+.hire_me h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 800;
+    height: 80px;
+}
+
+
+/*** service section css***/
+
+.services .services_box {
+    border: 3px solid #fafafa;
+    transition: all 0.5s;
+}
+
+.services .services_box:hover {
+    box-shadow: -1px 3px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.services .box {
+    position: relative;
+    padding: 50px;
+}
+
+.services .services_box .icon i {
+    color: #1957f3;
+    font-size: 38px;
+}
+
+.services .box_title {
+    position: relative;
+    margin-top: 10px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    overflow: hidden;
+}
+
+.services .box_title:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(91, 52, 225, 0.2);
+}
+
+.services .services_box:after {
+    content: '';
+    width: 0px;
+    height: 0px;
+    border-left: 50px solid transparent;
+    border-top: 50px solid transparent;
+    border-bottom: 50px solid #b9b1b1;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+
+
+/*** testimonial css ***/
+
+.testimonial {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/1.htt.jpg);
+    background-attachment: fixed;
+}
+
+.testimonial .section_title h3 {
+    color: #fff;
+}
+
+.testimonial .testimonial_item {
+    text-align: center;
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+}
+
+.testimonial .testimonial_item .icon i {
+    color: #1957f3;
+    font-size: 30px;
+}
+
+.testimonial .testimonial_item p {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.testimonial .testimonial_item .testimonial_author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial .testimonial_item .testimonial_author .part_img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.testimonial .testimonial_item .testimonial_author .part_img img {
+    border-radius: 50%;
+}
+
+.testimonial .testimonial_item .testimonial_author .text {
+    text-align: left;
+}
+
+.testimonial .testimonial_item .testimonial_author .text h5 {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.testimonial .testimonial_item .testimonial_author .text h6 {
+    color: #ccc;
+    font-size: 14px;
+}
+/***blog section css***/
+.blog{
+    border: 1px solid #fafafa;
+    transition: all 0.3s;
+}
+
+.blog .blog-item .part-img{
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s;
+}
+
+.blog .blog-item .part_img img{
+    transition: all 0.3s;
+}
+
+.blog .blog-item:hover .part_img img{
+    transform: scale(1.1);
+    opacity: 0.7;
+}
+.blog .blog-item .part_img .post-info-category{
+    position:absolute fixed;
+    left:0;
+    bottom:0;
+}
+
+.blog .blog-item .part_img .post-info-category a{
+    background: #1957f3;
+    padding: 7px 19px;
+    color: #fff;
+}
+
+.blog .blog-item .content{
+    padding: 20px;
+}
+
+.blog .blog-item .content .title{
+    margin-bottom: 16px;
+}
+
+.blog .blog-item .content .title h4{
+    font-size: 16px;
+}
+
+.blog .blog-item .content .title h4 a{
+    color: #000;
+}
+
+.blog .blog-item .content .title .meta span{
+    color:rgb(31, 5, 5);
+    font-size: 15px;
+}
+
+.blog .blog-item .content .title .meta span p{
+    font-size: 13px;
+}
+
+.blog .blog-item .content .author{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.blog .blog-item .content .author .author-img{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #1957f3;
+    border-radius: 50%;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.blog .blog-item .content .author .author-img img{
+    border-radius: 50%;
+}
+
+.blog .blog-item .content .author .text h5{
+    font-size: 13px;
+    font-weight:800;
+    margin: 0;
+}
+
+.blog .blog-item .content .author .text h5 a{
+    color:#333;
+}
+.work{
+background-color: whitesmoke;
+    background-attachment: fixed;
+}    
+
+/**** Message section css***/
+
+.Message{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../image/message.jpg);
+    background-attachment: fixed;
+}
+
+.Message .section_title h3{
+    color: #fff;
+}
+
+.Message .part-info{
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.Message .info-block{
+    border-right: 1px solid #fff;
+}
+
+.Message .part-info .info-block .icon{
+    margin-bottom: 15px;
+}
+
+.Message .part-info .info-block .icon i{
+    display: inline-block;
+    color: #fff;
+    font-size: 38px;
+}
+
+.Message .part-info .info-block h5{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.Message .part-info .info-block p{
+    color: #fff;
+    opacity: 0.9;
+}
+
+.Message .part-info .col-md-4:last-child .info-block{
+    border-right: 0;
+}
+
+.Message .Message-form{
+    background: linear-gradient(to right, transparent, rgba(200, 200, 200, 0.1), transparent);
+    padding: 30px;
+}
+
+.Message .Message-form input,
+.Message .Message-form textarea{
+    color: #fff;
+    background: transparent;
+    padding: 10px 15px;
+    border-radius: 0;
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.28);
+    margin-bottom: 15px;
+    font-size: 12px;
+    transition: 0.3s all;
+}
+
+.Message .Message-form input::placeholder,
+.Message .Message-form textarea::placeholder{
+    color: #fff;
+}
+
+.Message .Message-form input:focus,
+.Message .Message-form textarea:focus{
+    border: 1px solid#fff;
+    outline: none;
+    box-shadow: none;
+}
+
+.Message .Message-form textarea{
+    height: 60px;
+}
+.btn:hover {
+    box-shadow: inset 12em 0 0 0 #fff;
+    color: blue;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../image/ght.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner .caption h4 {
+    color: #fff;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner .caption h2 {
+    color: white;
+    font-size: 70px;
+    letter-spacing: -1px;
+}
+
+.banner .caption p {
+    color: rgb(248, 245, 245);
+    font-size: 20px;
+    line-height: 32px;
+    opacity: 50px;
+}
+
+.banner .caption .social_icon a {
+    color: #fff;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    font-size: 50px;
+    transition: 0.5s all;
+}
+
+.banner .caption .social_icon a:hover {
+    color: blue;
+}
+
+.part_photo {
+    width: 50%;
+    height: 50%;
+}
